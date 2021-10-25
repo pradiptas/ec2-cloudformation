@@ -17,7 +17,7 @@ jobs:
           name: Deploy Cloudformation Template with new Docker image
           command: |
             aws cloudformation deploy \
-            --template CloudFormation/ec2.yml \
+            --template-file CloudFormation/ec2.yml \
             --stack << parameters.stack-name >> \          
 
 workflows:
