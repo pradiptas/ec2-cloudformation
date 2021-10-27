@@ -13,9 +13,10 @@ Resources:
       ClusterSettings: 
            - Name: containerInsights
              Value: enabled
-      Configuration: 
-           ExecuteCommandConfiguration:
-           Logging: DEFAULT
+      Configuration:
+       ExecuteCommandConfiguration:
+          Logging: DEFAULT
+
       DefaultCapacityProviderStrategy: [
             {
                 "CapacityProvider": "FARGATE",
