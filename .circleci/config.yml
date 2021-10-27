@@ -23,4 +23,4 @@ workflows:
     jobs:
       - deploy-cfn:
           context: aws-cloudformation
-          stack-name: pradipta-ecs-cloudformation
+          stack-name: pradipta-ecs-cloudformation_02
