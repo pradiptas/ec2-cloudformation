@@ -7,7 +7,7 @@ Resources:
     Properties: 
       CapacityProviders: FARGATE
       ClusterName: pradipta-ecs-cluster-cloudformation
-      ClusterSettings: 
-      Configuration: 
-      DefaultCapacityProviderStrategy: 
+      ClusterSettings: test
+      Configuration: test
+      DefaultCapacityProviderStrategy: test
       Tags: [ { "Key" : "Environment", "Value" : "Dev" } ]
