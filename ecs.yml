@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: Build an ECS Cluster with AWS CloudFormation
+
+Resources:
+  WebAppInstance:
+    Type: AWS::ECS::Cluster
+    Properties: 
+      CapacityProviders: 
+      ClusterName: pradipta-ecs-cluster-cloudformation
+      ClusterSettings: 
+      Configuration: 
+      DefaultCapacityProviderStrategy: 
+      Tags: [ { "Key" : "Environment", "Value" : "Dev" } ]
