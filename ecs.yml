@@ -5,7 +5,7 @@ Resources:
   WebAppInstance:
     Type: AWS::ECS::Cluster
     Properties: 
-      CapacityProviders: 
+      CapacityProviders: FARGATE
       ClusterName: pradipta-ecs-cluster-cloudformation
       ClusterSettings: 
       Configuration: 
