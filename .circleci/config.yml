@@ -16,7 +16,7 @@ jobs:
       - run:
           name: Deploy Cloudformation Template with new Docker image
           #command: aws cloudformation create-stack --stack-name pradipta-ec2-cloudformation --template-body file://ec2.yml    
-          command: aws cloudformation create-stack --stack-name pradipta-ecs-cloudformation --template-body file://ecs.yml            
+          command: aws cloudformation create-stack --stack-name pradipta-ecs-cloudformation_02 --template-body file://ecs.yml            
 
 workflows:
   deploy_infrastructure:
